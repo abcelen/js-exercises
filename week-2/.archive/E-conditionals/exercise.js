@@ -7,7 +7,14 @@
 */
 
 var name = "Daniel";
-var danielsRole = "mentor";
+var danielsRole = false;
+
+if(danielsRole){
+console.log( "hi I am a mentor");
+}else{
+  console.log("I am a student");
+}
+
 
 /* 
 EXPECTED RESULT
